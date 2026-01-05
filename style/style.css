@@ -1,0 +1,20 @@
+/* Root Design Start  */
+:root{
+    --bgColor: rgb(245,248,255);
+    --primaryColor: rgba(233, 90, 8, 1);
+    --secondColor: rgba(17, 17, 17, 1);
+    --textColor: rgba(0, 0, 0, 0.5);
+    --navColor: rgba(137, 135, 161, 1);
+    --primaryFont: Inter;
+    --secondFont: Noto Serif;
+}
+/* Root Design End  */
+
+/* Reset CSS Default design */
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primaryFont);
+    background-color: var(--bgColor);
+}
