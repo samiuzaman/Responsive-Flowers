@@ -18,3 +18,48 @@
     font-family: var(--primaryFont);
     background-color: var(--bgColor);
 }
+/* Header Section Code Start Here */
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 100px;
+        height: 72px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+        list-style: none;
+        li:hover{
+            cursor: pointer;
+            color: var(--primaryColor);
+            text-decoration: underline;
+        }
+    }
+    .nav-list{
+        display: flex;
+        align-items: center;
+        gap: 45px;
+    }
+    .shopping-cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+            img{
+        width: 24px;
+        height: 24px;
+        }
+    }
+}
+/* Header Section Code End Here */
