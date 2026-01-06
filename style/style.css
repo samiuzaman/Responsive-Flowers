@@ -22,10 +22,12 @@
 header{
     width: 80%;
     margin: 0 auto;
+    height: 90vh;
+    margin-bottom: 60px;
 }
 nav{
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,5 +63,27 @@ nav{
         height: 24px;
         }
     }
+}
+/* Hero Section Code */
+#hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;
+}
+.hero-title h2{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: var(--secondFont);
+    
+}
+.hero-title h1 span{
+        color: var(--primaryColor);
+    }
+.hero-title p{
+    color: var(--textColor);
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 14px;
 }
 /* Header Section Code End Here */
