@@ -70,9 +70,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 24;
+    padding-right: 58px;
 }
-.hero-title h2{
-    font-size: 65px;
+.hero-title h1{
+    font-size: 55px;
     font-weight: bold;
     font-family: var(--secondFont);
     
@@ -87,3 +88,6 @@ nav{
     margin-top: 14px;
 }
 /* Header Section Code End Here */
+/* Our Plants Section Code Start Here */
+
+/* Our Plants Section Code End Here */
