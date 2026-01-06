@@ -66,17 +66,20 @@ nav{
 }
 /* Hero Section Code */
 #hero-container{
+    padding-top: 28px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 24;
+    gap: 24px;
     padding-right: 58px;
+}
+.hero-title {
+    width: 50%;
 }
 .hero-title h1{
     font-size: 55px;
     font-weight: bold;
     font-family: var(--secondFont);
-    
 }
 .hero-title h1 span{
         color: var(--primaryColor);
@@ -86,6 +89,9 @@ nav{
     font-size: 20px;
     line-height: 27px;
     margin-top: 14px;
+}
+.hero-img {
+    width: 40%;
 }
 /* Header Section Code End Here */
 /* Our Plants Section Code Start Here */
