@@ -160,3 +160,49 @@ nav{
     }
 }
 /* Our Plants Section Code End Here */
+
+/* Plants Lover Section Code Start Here */
+#plants-lover-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;
+}
+#plants-lover-img{
+    position: relative;
+}
+#plants-lover-img img:nth-child(1){
+    width: 450px;
+    height: 510px;
+}
+#plants-lover-img img:nth-child(2){
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    background-color: transparent;
+    right: -95px;
+    top: -130px;
+}
+#plants-lover-text{ 
+    width: 50%;
+    padding: 16px 24px;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: var(--secondFont);
+        margin-bottom: 20px;
+    }
+    ul{
+        padding-left: 16px;
+    }
+    ul li{
+        font-size: 20px;
+        line-height: 27px;
+        color: var(--textColor);
+        margin-bottom: 20px;
+    }
+}
+/* Plants Lover Section Code End Here */
