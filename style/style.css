@@ -18,6 +18,9 @@
     font-family: var(--primaryFont);
     background-color: var(--bgColor);
 }
+body{
+    border: 2px solid;
+}
 /* Header Section Code Start Here */
 header{
     width: 80%;
