@@ -1,5 +1,27 @@
 @media only screen and (max-width: 640px){
 
+    /* Responsive Plants Lover Section */
+    #plants-lover-container{
+        width: 90%;
+        display: block;
+    }
+#plants-lover-img img:nth-child(1){
+    width: 100%;
+}
+#plants-lover-img img:nth-child(2){
+    display: none;
+}
+#plants-lover-text{
+    width: 100%;
+    margin-top: 18px;
+    padding: 0;
+    h2{
+        font-size: 25px;
+    }
+    ul li{
+        font-size: 18px;
+    }
+}
     /* Responsive Latest Deals Section */
     #latest-deals-container{
         width: 90%;
