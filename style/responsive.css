@@ -1,5 +1,17 @@
 @media only screen and (max-width: 640px){
-
+    /* Responsive Subscribe Section */
+    #subscribe-container{
+        height: 300px;
+        h3{
+            font-size: 27px;
+        }
+    }
+    .subscribe-input{
+        width: 85%;
+        button{
+            padding: 10px 18px;
+        }
+    }
     /* Footer Responsive Section */
     footer{
         display: grid;
