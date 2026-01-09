@@ -1,4 +1,30 @@
 @media only screen and (max-width: 640px){
+    
+
+    /* Responsive Our Plants Section */
+    #our-plants-container{
+        width: 90%;
+    }
+    .plants-sub-heading{
+        width: 90%;
+    }
+    .plants-card-parent-div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .single-card{
+        img{
+            height: 230px;
+        }
+        h5{
+            font-size: 15px;
+        }
+        p{
+            font-size: 14px;
+        }
+        bottom{
+            font-size: 13px;
+        }
+    }
 
     /* Responsive Plants Lover Section */
     #plants-lover-container{
