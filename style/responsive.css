@@ -1,5 +1,46 @@
 @media only screen and (max-width: 640px){
-    
+    /* Responsive Nav Section */
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 90%;
+        margin: 14px auto;
+    }
+    nav img{
+        width: 63;
+        height: 38;
+    }
+    .nav-list ul{
+        display: none;
+    }
+
+    /* Responsive Hero Section */
+    #hero-container{
+        padding-top: 10px;
+        padding-right: 0;
+        flex-direction: column-reverse;
+    }
+    .hero-title{
+        width: 100;
+    }
+    .hero-img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .hero-title{
+        width: 90%;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    } 
 
     /* Responsive Our Plants Section */
     #our-plants-container{
